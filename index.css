@@ -69,13 +69,14 @@ body > div {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
+    transition: background 0.2s ease, border 0.2s ease; 
+}
+.input:hover {
+    background: #7A54FF;
 }
 
 .input:focus {
     outline: none;
-    border: 2px solid;
-    border-color: #FFFFFF;
-    box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.4);
 }
 
 /* Remove number field arrows */
@@ -101,6 +102,15 @@ body > div {
     font-style: normal;
     font-weight: 500;
     color: #3D3D3D;
+    cursor: pointer;
+}
+.convert-btn:hover {
+  background-color: #D1D5DB;
+}
+
+.convert-btn:active {
+  transform: scale(0.95);
+  background-color: #B0B0B0;
 }
 
 .unit-display {
@@ -147,4 +157,7 @@ body > div {
   color: rgba(255, 255, 255, 0.6); /* faded white */
   transition: color 0.2s ease;
   font-size: 14px;
+}
+.input:focus::placeholder {
+    color: transparent;
 }
