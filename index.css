@@ -13,7 +13,7 @@ body {
 }
 
 body > div {
-    width: 500px;
+    width: 480px;
 }
 
 #body-div {
@@ -21,6 +21,8 @@ body > div {
     border-radius: 16px;
     border-color: white;
     box-shadow: 0 0 0 0.75px #9CA3AF;
+    margin: 0 auto;
+    width: 480px;
 }
 
 #unit-entry {
