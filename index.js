@@ -20,7 +20,7 @@ convertBtn.addEventListener("click", () => {
         pVolume.innerHTML = `${inputValue} L = ${gallons} gal <strong>|</strong> ${inputValue} gal = ${liters} L`;
         pMass.innerHTML = `${inputValue} kg = ${slugs} slugs <strong>|</strong> ${inputValue} slugs = ${kilograms} kg`;
     }else{
-        alert("Enter a metric value");
+        alert("Enter a numerical value");
     }
 })
 
